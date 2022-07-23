@@ -86,6 +86,7 @@ public class RockPaperScissors {
 
             else if (!userChoice.equals("R") || !userChoice.equals("P") || !userChoice.equals("S")) {
                 System.out.println("That is not an adequate choice. You forfeit. The computer wins.");
+                computerWins++;
                 System.out.println("The score is: User wins: " + userWins + " / " + "Computer wins: " + computerWins);
             }
 
